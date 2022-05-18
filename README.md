@@ -1,1 +1,1 @@
-# be-productive
+# friday-live-coding
