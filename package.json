@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ley-na/be-productive/issues"
   },
-  "homepage": "https://github.com/ley-na/be-productive#readme"
+  "homepage": "https://github.com/ley-na/be-productive#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

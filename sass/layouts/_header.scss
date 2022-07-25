@@ -3,5 +3,42 @@
   background-color: $color-light;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
+  &__buttons {
+    display: flex;
+    justify-content: start;
+
+    .button {
+      margin-right: 14px;
+    }
+
+    .button:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+
+  &__item {
+    padding: 0 10px;
+    list-style: none;
+  }
+
+  &__link {
+    color: $color-heading;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
 }
