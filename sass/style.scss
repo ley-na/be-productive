@@ -1,4 +1,6 @@
 @import "abstract/constant";
+@import "abstract/mixins";
+@import "abstract/placeholder";
 
 //BASE
 @import "base/base";
@@ -9,5 +11,6 @@
 @import "layouts/header";
 
 // COMPONENTS
+@import "components/navigation";
 @import "components/promo";
 @import "components/contact-us";
