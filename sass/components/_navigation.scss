@@ -2,7 +2,6 @@
   display: flex;
   font-size: 1.5rem;
   line-height: 2.8rem;
-  transition: all .3s;
 }
 
 .navigation__item {
@@ -11,6 +10,7 @@
 
 .navigation__link {
   color: $color-heading;
+  transition: color .3s;
 
   &:hover {
     color: $color-primary;
