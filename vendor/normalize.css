@@ -80,6 +80,7 @@ pre {
 
 a {
   background-color: transparent;
+  text-decoration: none;
 }
 
 /**
@@ -151,6 +152,7 @@ sup {
  */
 
 img {
+  display: block;
   border-style: none;
 }
 
@@ -355,4 +357,8 @@ template {
 
 * {
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }

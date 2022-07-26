@@ -7,12 +7,10 @@
 
 .navigation__item {
   padding: 0 10px;
-  list-style: none;
 }
 
 .navigation__link {
   color: $color-heading;
-  text-decoration: none;
 
   &:hover {
     color: $color-primary;

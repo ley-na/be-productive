@@ -1,16 +1,20 @@
 @import "abstract/constant";
 @import "abstract/mixins";
-@import "abstract/placeholder";
+@import "abstract/placeholders";
 
 //BASE
 @import "base/base";
 @import "base/button";
+@import "base/icons";
 
 //LAYOUTS
 @import "layouts/wrapper";
 @import "layouts/header";
+@import "layouts/columns";
 
 // COMPONENTS
 @import "components/navigation";
 @import "components/promo";
+@import "components/tools";
+@import "components/strategies";
 @import "components/contact-us";

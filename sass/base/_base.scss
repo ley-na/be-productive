@@ -4,8 +4,8 @@ html {
 
 body {
   margin: 0;
-  font-size: 1.6rem;
-  font-family: 'Open Sans', Verdana, sans-serif;
+  @extend %font-primary;
+  @include font(400, 1.6rem, 2.6rem);
 }
 
 h1 {

@@ -34,21 +34,4 @@
     width: 174px;
     margin-right: 44px;
   }
-
-  .link-button {
-    color: $color-primary;
-    text-decoration: none;
-
-    .ico {
-
-      background-image: url("./img/icons/arrow.svg");
-      background-repeat: no-repeat;
-      background-size: 20px 19px;
-    }
-
-    .promo:hover {
-      padding-left: 28px;
-      color: $color-secondary;
-    }
-  }
 }
