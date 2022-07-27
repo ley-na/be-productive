@@ -1,0 +1,32 @@
+.footer {
+  padding: 58px 0 52px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation {
+  flex-grow: 1;
+  margin-left: 152px;
+}
+
+.footer-navigation__title {
+  margin-bottom: 15px;
+
+  @include font(600, 2rem, 3rem)
+}
+
+.footer-navigation__link {
+  color: $color-text;
+  transition: color .3s;
+
+  @extend %font-secondary;
+  @include font(400, 1.6rem, 3.5rem);
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+

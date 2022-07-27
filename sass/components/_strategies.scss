@@ -13,3 +13,26 @@
 .strategies__tags {
   margin-bottom: 31px;
 }
+
+.strategies__strategy {
+  margin-bottom: 30px;
+}
+
+//STRATEGY
+.strategy {
+  padding-bottom: 29px;
+}
+
+.strategy__content {
+  padding: 0 33px;
+}
+
+.strategy__title {
+  margin: 24px 0 29px;
+  cursor: pointer;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+

@@ -2,24 +2,21 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  color: $color-text;
 }
 
+//TAG COMPONENT
 .tag {
   margin-right: 7px;
   padding: 0 14px;
   border-radius: 90px;
   transition: background-color .3s;
-  cursor: pointer;
+  //cursor: pointer;
 
   @include font(400, 1.3rem, 2,8rem);
 
-
-  &_bordered {
-    border: 1px solid $color-button;
-
-    &:hover {
-      background-color: $color-button;
-    }
+  &:last-child {
+    margin-right: 0;
   }
 
   &_selected {
@@ -31,8 +28,17 @@
       background-color: $color-secondary;
     }
   }
-}
 
-.tag:last-child {
-  margin-right: 0;
+  &_bordered {
+    border: 1px solid $color-additional;
+
+    &:hover {
+      background-color: $color-additional;
+    }
+  }
+
+  &_colored {
+    background-color: $color-tag;
+    border: 1px solid $color-tag;
+  }
 }

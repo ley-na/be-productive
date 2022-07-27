@@ -1,0 +1,57 @@
+//image gap to place out of block
+$image-gap: 32px;
+
+.about-us {
+  padding-bottom: 101px;
+}
+
+.about-us__title {
+  margin-bottom: 14px;
+}
+
+.about-us__description {
+  margin-bottom: 45px;
+  color: $color-text;
+}
+
+//EMPLOYEE COMPONENT
+.employee__wrapper {
+  padding-right: 32px;
+}
+
+.employee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  padding-right: 0;
+}
+
+.employee__name {
+  line-height: 2rem;
+}
+
+.employee__title {
+
+  @include font(400, 1.4rem, 2rem);
+}
+
+.employee__link {
+  color: $color-link;
+  text-decoration: underline;
+
+  @include font(400, 1.4rem, 2rem);
+
+  &:hover {
+    text-decoration: underline;
+}
+}
+
+.employee__img {
+  position: relative;
+  right: -$image-gap;
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}

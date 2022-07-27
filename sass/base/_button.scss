@@ -11,11 +11,11 @@
 
   &_bordered {
     background-color: $color-light;
-    border: 1px solid $color-button;
+    border: 1px solid $color-additional;
     color: $color-text;
 
     &:hover {
-      background-color: $color-button;
+      background-color: $color-additional;
     }
   }
 

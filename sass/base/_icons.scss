@@ -37,6 +37,33 @@
     background-image: url("../../img/icons/clock.svg");
     background-repeat: no-repeat;
   }
+
+  &_phone {
+    width: 13px;
+    height: 13px;
+    background-image: url("../../img/icons/phone.svg");
+    background-repeat: no-repeat;
+  }
+
+  &_letter {
+    width: 11px;
+    height: 8px;
+    background-image: url("../../img/icons/letter.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.ico-round {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+  &_white {
+    background-color: $color-light;
+  }
 }
 
 .icon-square {
