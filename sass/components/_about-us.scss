@@ -1,8 +1,12 @@
-//image gap to place out of block
+//gap to place image out of block
 $image-gap: 32px;
 
 .about-us {
   padding-bottom: 101px;
+
+  @include media-tablet {
+    text-align: center;
+  }
 }
 
 .about-us__title {

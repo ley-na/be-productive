@@ -8,11 +8,12 @@
   cursor: pointer;
   border-radius: 4px;
   transition: all .3s;
+  white-space: nowrap;
 
   &_bordered {
     background-color: $color-light;
     border: 1px solid $color-additional;
-    color: $color-text;
+    color: $color-menu;
 
     &:hover {
       background-color: $color-additional;

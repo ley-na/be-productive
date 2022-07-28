@@ -17,24 +17,40 @@ h1 {
 
   @extend %font-secondary;
   @include font(700, 4.4rem, 5.4rem);
+
+  @include media-mobile {
+    @include font(700, 3.2rem, 4.2rem);
+  }
 }
 
 h2 {
   color: $color-heading;
 
   @include font(700, 3.4rem, 4.6rem);
+
+  @include media-mobile {
+    @include font(700, 2.4rem, 3.2rem);
+  }
 }
 
 h3 {
   color: $color-heading;
 
   @include font(700, 2.4rem, 3.4rem);
+
+  @include media-tablet {
+    @include font(700, 2.1rem, 3.1rem);
+  }
 }
 
 h4 {
   color: $color-heading;
 
   @include font(600, 2.2rem, 3.0rem);
+
+  @include media-mobile {
+    @include font(600, 2rem, 2.7rem);
+  }
 }
 
 h5 {

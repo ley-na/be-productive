@@ -1,8 +1,8 @@
-@mixin font ($fweight, $fsize, $lh, $fstyle: normal) {
+@mixin font ($fweight, $fsize, $lheight, $fstyle: normal) {
   font-style: $fstyle;
   font-weight: $fweight;
   font-size: $fsize;
-  line-height: $lh;
+  line-height: $lheight;
 }
 
 @mixin columns($width) {
@@ -12,4 +12,20 @@
   >* {
     flex-basis: $width;
   }
+}
+
+@mixin media-laptop {
+  @media (max-width: $content-width) { @content; }
+}
+
+@mixin media-tablet {
+  @media (max-width: $tablet-width) { @content; }
+}
+
+@mixin media-mobile {
+  @media (max-width: $mobile-big-width) { @content; }
+}
+
+@mixin media-mobilesmall {
+  @media (max-width: $mobile-small-width) { @content; }
 }

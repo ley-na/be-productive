@@ -4,28 +4,83 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
+
+  @include media-mobile {
+    padding-bottom: 47px;
+  }
 }
 
 .tools__title {
   max-width: 462px;
   margin: 0 auto 70px;
   text-align: center;
+
+  @include media-mobile {
+    margin-bottom: 51px;
+  }
+
+  @include media-mobile {
+    margin-bottom: 43px;
+  }
 }
 
 .tools__button {
   margin-top: 60px;
   text-align: center;
+
+  @include media-tablet {
+    margin-top: 0;
+  }
+
+  @include media-mobile {
+    margin-top: 7px;
+  }
 }
 
 //TOOL COMPONENT
+.tool__wrapper {
+  @include media-tablet {
+    flex-wrap: wrap;
+  }
+
+  @include media-mobile {
+    flex-direction: column;
+  }
+}
+
+.tool {
+  @include media-tablet {
+    text-align: center;
+    flex-basis: 43%;
+    margin-bottom: 54px;
+  }
+
+  @include media-mobile {
+    margin-bottom: 31px;
+    flex-basis: 100%
+  }
+}
+
 .tool__icon {
   margin-bottom: 30px;
+
+  @include media-tablet {
+    margin-bottom: 30px;
+  }
+
+  @include media-mobile {
+    margin-bottom: 11px;
+  }
 }
 
 .tool__title {
   margin-bottom: 30px;
-}
 
-.tool__text {
-  margin-bottom: 16px;
+  @include media-tablet {
+    margin-bottom: 6px;
+  }
+
+  @include media-mobile {
+    margin-bottom: 2px;
+  }
 }
