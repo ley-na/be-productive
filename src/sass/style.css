@@ -147,43 +147,43 @@ h5 {
   width: 18px;
   height: 19px;
   margin-right: 9px;
-  background-image: url("../../img/icons/play.svg");
+  background-image: url("../../../src/img/icons/play.svg");
   background-repeat: no-repeat;
 }
 .ico_arrow {
   width: 12px;
   height: 17px;
-  background-image: url("../../img/icons/arrow.svg");
+  background-image: url("../../../src/img/icons/arrow.svg");
   background-repeat: no-repeat;
 }
 .ico_snake {
   width: 18px;
   height: 14px;
-  background-image: url("../../img/icons/snake.svg");
+  background-image: url("../../../src/img/icons/snake.svg");
   background-repeat: no-repeat;
 }
 .ico_heart {
   width: 17px;
   height: 15px;
-  background-image: url("../../img/icons/heart.svg");
+  background-image: url("../../../src/img/icons/heart.svg");
   background-repeat: no-repeat;
 }
 .ico_clock {
   width: 15px;
   height: 17px;
-  background-image: url("../../img/icons/clock.svg");
+  background-image: url("../../../src/img/icons/clock.svg");
   background-repeat: no-repeat;
 }
 .ico_phone {
   width: 13px;
   height: 13px;
-  background-image: url("../../img/icons/phone.svg");
+  background-image: url("../../../src/img/icons/phone.svg");
   background-repeat: no-repeat;
 }
 .ico_letter {
   width: 11px;
   height: 8px;
-  background-image: url("../../img/icons/letter.svg");
+  background-image: url("../../../src/img/icons/letter.svg");
   background-repeat: no-repeat;
 }
 
@@ -232,6 +232,7 @@ h5 {
   padding: 0 14px;
   border-radius: 90px;
   transition: background-color 0.3s;
+  cursor: pointer;
   font-style: 8rem;
   font-weight: 400;
   font-size: 1.3rem;
@@ -465,6 +466,9 @@ h5 {
   color: #FF9900;
 }
 
+.header__navigation {
+  margin-left: 216px;
+}
 @media (max-width: 768px) {
   .header__navigation {
     display: none;
@@ -566,7 +570,7 @@ h5 {
 
 .tools {
   padding-bottom: 90px;
-  background-image: url("../../img/backgrounds/tools-bg.svg");
+  background-image: url("./src/img/backgrounds/tools-bg.svg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
