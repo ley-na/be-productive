@@ -1,14 +1,14 @@
 const tagsWrapper = document.querySelector('.strategies__tags');
 const tags = tagsWrapper.querySelectorAll('.tag');
 const strategiesWrapper = document.querySelector('.strategy-wrapper');
-const strategies = strategiesWrapper.querySelectorAll('.strategy');
+// const strategies = strategiesWrapper.querySelectorAll('.strategy');
+
 
 import { Article } from "./js/Article";
 
 import { data } from "./js/data";
 
 window.onload = function () {
-    console.log('I am loaded');
     // Render data
     if (data) {
         renderArticlesToDom();
@@ -20,7 +20,6 @@ window.onload = function () {
 
 const addTagsClickHandler = () => {
     tagsWrapper.addEventListener('click', (evt) => {
-        // console.log(evt);
         if (evt.target.classList.contains('tag')) {
             let clickedTag = evt.target;
             removeSelectedTags();
@@ -48,13 +47,14 @@ const selectClickedTag = (clickedTag) => {
 }
 
 const showAllStrategies = () => {
+    let strategies = document.querySelectorAll('.strategy-wrapper .strategy');
     strategies.forEach(strategy => {
         strategy.classList.remove('strategy_hidden');
     })
 }
 
 const filterStrategiesBySelectedTag = (selectedTag) => {
-    console.log(strategies);
+    let strategies = document.querySelectorAll('.strategy-wrapper .strategy');
     strategies.forEach(strategy => {
         let tags = strategy.querySelectorAll('.tag');
         strategy.classList.add('strategy_hidden');
