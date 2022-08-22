@@ -26,25 +26,31 @@
   }
 }
 
-.strategies__strategy {
-  margin-bottom: 30px;
+//STRATEGY
+.strategy-wrapper {
+  >* {
+    margin-bottom: 30px;
 
-  @include media-tablet {
-    flex-basis: 48%;
-  }
+    @include media-tablet {
+      flex-basis: 48%;
+    }
 
-  @include media-mobile {
-    flex-basis: 100%;
+    @include media-mobile {
+      flex-basis: 100%;
+    }
   }
 }
 
-//STRATEGY
 .strategy {
   //position: relative;
   display: flex;
   flex-direction: column;
   padding-bottom: 29px;
   cursor: pointer;
+
+  &_hidden {
+    display: none;
+  }
 
   @include media-tablet {
     overflow: hidden;

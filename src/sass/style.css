@@ -696,16 +696,16 @@ h5 {
   }
 }
 
-.strategies__strategy {
+.strategy-wrapper > * {
   margin-bottom: 30px;
 }
 @media (max-width: 768px) {
-  .strategies__strategy {
+  .strategy-wrapper > * {
     flex-basis: 48%;
   }
 }
 @media (max-width: 414px) {
-  .strategies__strategy {
+  .strategy-wrapper > * {
     flex-basis: 100%;
   }
 }
@@ -715,6 +715,9 @@ h5 {
   flex-direction: column;
   padding-bottom: 29px;
   cursor: pointer;
+}
+.strategy_hidden {
+  display: none;
 }
 @media (max-width: 768px) {
   .strategy {
